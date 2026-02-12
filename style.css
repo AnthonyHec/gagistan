@@ -54,7 +54,7 @@ h1 {
     box-shadow: 0px 5px 8px rgba(0, 0, 0, 50%);
 }
 .cards li .img {
-    width: 100vw;
+    width: auto;
     aspect-ratio: 3/2;
     background-size: cover;
     background-position-y: center;
@@ -64,17 +64,18 @@ h1 {
     background-image: url(img/GAGAWAR.webp);
     background-position-y: 10%;
 }
+.cards li:nth-child(2) .img {
+    background-image: url(img/NEWS.webp);
+    background-position-x: center;
+    background-position-y: center;
+}
 .cards li:nth-child(3) .img {
     background-image: url(img/gaga_vape2_REDACTED.webp);
 }
 .cards li:nth-child(4) .img {
     background-image: url(img/gaga_confused.webp);
 }
-.cards li:nth-child(2) .img {
-    background-image: url(img/NEWS.webp);
-    background-position-y: 60%;
-    background-position-x: center;
-}
+
 .cards li h4 {
     font-size: 22.5px;
     font-weight: 700;
