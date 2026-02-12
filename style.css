@@ -64,14 +64,14 @@ h1 {
     background-image: url(img/GAGAWAR.webp);
     background-position-y: 10%;
 }
-.cards li:nth-child(2) .img {
+.cards li:nth-child(3) .img {
     background-image: url(img/gaga_vape2_REDACTED.webp);
 }
-.cards li:nth-child(3) .img {
+.cards li:nth-child(4) .img {
     background-image: url(img/gaga_confused.webp);
 }
-.cards li:nth-child(4) .img {
-    background-image: url(img/slaaf.webp);
+.cards li:nth-child(2) .img {
+    background-image: url(img/NEWS.webp);
     background-position-y: 60%;
     background-position-x: center;
 }
@@ -111,7 +111,7 @@ h1 {
 /* DESKTOP */
 @media (min-width: 1025px) {
     main {
-        margin: 70px 100px 10px 100px;
+        margin: 90px 100px 10px 100px;
     }
 
     .banner {
