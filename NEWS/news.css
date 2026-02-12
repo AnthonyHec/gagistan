@@ -82,7 +82,9 @@ main {
     font-size: 15px;
     font-weight: 600;
 }
-
+.AI {
+    color: rgb(140, 140, 140);
+}
 
 .article_text {
     grid-column: span 2;
@@ -92,12 +94,15 @@ main {
 .article_text h4 {
     font-size: 22.5;
     font-weight: 600;
-    margin: 12px 0 0px 0;
+    margin: 12px 0 2px 0;
 }
 .article_text p {
-    margin-top: 8px;
+    margin-bottom: 8px;
     font-size: 15px;
     line-height: 18px;
+}
+.article_text p:nth-child(1) {
+    margin-top: 8px;
 }
 
 @media (max-width: 1024px) {
