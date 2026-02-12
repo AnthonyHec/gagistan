@@ -64,12 +64,23 @@ main {
     font-family: rakas;
     src: url(/Rakkas-Regular.ttf);
 }
+/* SPANS */
 .GAGISTAN, .REPUBLIC {
     font-family: blackops;
+    font-size: 15px;
+}
+.REPUBLIC, .PINNED {
+    padding: 2px 5px 2px 5px;
 }
 .REPUBLIC {
     background-color: #990000;
     color: #F4F4F4;
+}
+.PINNED {
+    background-color: rgb(0, 0, 198);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 
