@@ -69,8 +69,9 @@ main {
 }
 /* SPANS */
 .GAGISTAN, .REPUBLIC {
-    font-family: blackops;
-    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 14px;
 }
 .REPUBLIC, .PINNED {
     padding: 2px 5px 2px 5px;
@@ -174,6 +175,12 @@ main {
     .PINNED {
         font-size: 16px;
         padding: 4px 10px 4px 10px;
+    }
+
+    .GAGISTAN, .REPUBLIC {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 1000;
+        font-size: 18px;
     }
 
     .article_text{
