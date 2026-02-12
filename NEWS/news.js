@@ -7,7 +7,7 @@ articles.forEach(article => {
         article.style.maxHeight = "1000px"
         menu_open = true
     } else {
-        article.style.maxHeight = "150px"
+        article.style.maxHeight = ""
         menu_open = false
     }
   });
