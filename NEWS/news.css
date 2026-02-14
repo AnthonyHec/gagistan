@@ -92,6 +92,9 @@ main {
 .EVENT_ARTICLE .article {
     box-shadow: 0px 0px 20px #EBB500;
 }
+.EVENT_ARTICLE .article {
+    background-color: #FFF8E0;
+}
 .EVENT {
     padding: 3px 8px 2px 8px;
     background-color: #EBB500;
