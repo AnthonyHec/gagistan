@@ -8,10 +8,13 @@ html {box-sizing: border-box;}
 .RED {
     background-color: #990000;
     color: #F4F4F4;
-    padding: 0 1rem 0 1rem;
+    padding: 2px 1rem 0 1rem;
 }
 h1 {
     font-size: 32px;
+    top: 12px;
+    right: 10px;
+    translate: 0 0;
 }
 header nav ul{
     margin-top: 0;
@@ -157,8 +160,8 @@ main {
 @media (max-width: 1024px) {
     h1 {
         position: absolute;
-        right: 14px;
-        bottom: 20px;
+        right: 8px;
+        top: 15px;
     }
     header nav {
         padding-top: 60px;
@@ -167,10 +170,12 @@ main {
 
 @media (min-width: 1025px) {
     h1 {
-        margin-top: 1rem;
+        margin-top: 14px;
         translate: 0 0px;
     }
-
+    .RED {
+        padding: 4px 1rem 0 1rem;
+    }
     main {
         padding: 0 16vw 0 16vw;
     }

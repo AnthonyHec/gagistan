@@ -5,8 +5,7 @@ body {
 /* HEADER + NAV */
 
 h1 {
-    translate: 0px 5px;
-    min-height: 2.5rem;
+    translate: 0px 15px;
 }
 
 header {
