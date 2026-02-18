@@ -167,7 +167,8 @@ main {
 
 @media (min-width: 1025px) {
     h1 {
-        translate: 0 15px;
+        margin-top: 1rem;
+        translate: 0 0px;
     }
 
     main {
